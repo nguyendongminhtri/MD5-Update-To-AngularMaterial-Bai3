@@ -11,7 +11,8 @@ export class FontSizeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  changeFontSizeValue(fontSize: any) {
-    this.fontSize = fontSize;
-  }
+  //Cach 2
+  // changeFontSizeValue(fontSize: any) {
+  //   this.fontSize = fontSize;
+  // }
 }

@@ -18,6 +18,8 @@ import { FontSizeComponent } from './content/font-size/font-size.component';
 import {FormsModule} from "@angular/forms";
 import { ShowPetComponent } from './content/show-pet/show-pet.component';
 import { TableBostrapComponent } from './content/table-bostrap/table-bostrap.component';
+import { ChildComponent } from './input/child/child.component';
+import { ParentComponent } from './input/parent/parent.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { TableBostrapComponent } from './content/table-bostrap/table-bostrap.com
     HomeComponent,
     FontSizeComponent,
     ShowPetComponent,
-    TableBostrapComponent
+    TableBostrapComponent,
+    ChildComponent,
+    ParentComponent
   ],
   imports: [
     BrowserModule,
