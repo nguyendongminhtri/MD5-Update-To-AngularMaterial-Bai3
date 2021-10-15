@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
   fruits = ['Mengo', 'Orange', 'Banana'];
+  vote: number = 0;
   constructor() { }
 
   ngOnInit(): void {
@@ -15,4 +16,5 @@ export class ParentComponent implements OnInit {
     console.log('luong 1')
     this.fruits.push(item);
   }
+
 }

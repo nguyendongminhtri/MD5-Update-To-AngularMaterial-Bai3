@@ -20,6 +20,8 @@ import { ShowPetComponent } from './content/show-pet/show-pet.component';
 import { TableBostrapComponent } from './content/table-bostrap/table-bostrap.component';
 import { ChildComponent } from './input/child/child.component';
 import { ParentComponent } from './input/parent/parent.component';
+import { ChildOutputComponent } from './content/output/child-output/child-output.component';
+import { ParentOutputComponent } from './content/output/parent-output/parent-output.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { ParentComponent } from './input/parent/parent.component';
     ShowPetComponent,
     TableBostrapComponent,
     ChildComponent,
-    ParentComponent
+    ParentComponent,
+    ChildOutputComponent,
+    ParentOutputComponent
   ],
   imports: [
     BrowserModule,
