@@ -6,6 +6,7 @@ import {ShowPetComponent} from "./content/show-pet/show-pet.component";
 import {TableBostrapComponent} from "./content/table-bostrap/table-bostrap.component";
 import {ParentComponent} from "./input/parent/parent.component";
 import {ParentOutputComponent} from "./content/output/parent-output/parent-output.component";
+import {ParentNgonchangeComponent} from "./content/ngOnChanges/parent-ngonchange/parent-ngonchange.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: 'show-pet', component: ShowPetComponent},
   {path: 'table-boostrap', component: TableBostrapComponent},
   {path: 'input', component: ParentComponent},
-  {path: 'output', component: ParentOutputComponent}
+  {path: 'output', component: ParentOutputComponent},
+  {path: 'ng-onchange',component: ParentNgonchangeComponent}
 ];
 
 @NgModule({

@@ -22,6 +22,8 @@ import { ChildComponent } from './input/child/child.component';
 import { ParentComponent } from './input/parent/parent.component';
 import { ChildOutputComponent } from './content/output/child-output/child-output.component';
 import { ParentOutputComponent } from './content/output/parent-output/parent-output.component';
+import { ChildNgonchangeComponent } from './content/ngOnChanges/child-ngonchange/child-ngonchange.component';
+import { ParentNgonchangeComponent } from './content/ngOnChanges/parent-ngonchange/parent-ngonchange.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { ParentOutputComponent } from './content/output/parent-output/parent-out
     ChildComponent,
     ParentComponent,
     ChildOutputComponent,
-    ParentOutputComponent
+    ParentOutputComponent,
+    ChildNgonchangeComponent,
+    ParentNgonchangeComponent
   ],
   imports: [
     BrowserModule,
