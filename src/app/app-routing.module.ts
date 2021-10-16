@@ -8,6 +8,7 @@ import {ParentComponent} from "./input/parent/parent.component";
 import {ParentOutputComponent} from "./content/output/parent-output/parent-output.component";
 import {ParentNgonchangeComponent} from "./content/ngOnChanges/parent-ngonchange/parent-ngonchange.component";
 import {ParentNgdocheckComponent} from "./content/ngDoCheck/parent-ngdocheck/parent-ngdocheck.component";
+import {NgAfterContentInitComponent} from "./content/ngAfterContentInit/ng-after-content-init/ng-after-content-init.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'input', component: ParentComponent},
   {path: 'output', component: ParentOutputComponent},
   {path: 'ng-onchange',component: ParentNgonchangeComponent},
-  {path: 'ng-do-check',component: ParentNgdocheckComponent}
+  {path: 'ng-do-check',component: ParentNgdocheckComponent},
+  {path: 'ng-after-content-init', component: NgAfterContentInitComponent}
 ];
 
 @NgModule({
