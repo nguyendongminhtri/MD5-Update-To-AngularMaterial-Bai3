@@ -27,6 +27,9 @@ import { ParentNgonchangeComponent } from './content/ngOnChanges/parent-ngonchan
 import { ChildNgdocheckComponent } from './content/ngDoCheck/child-ngdocheck/child-ngdocheck.component';
 import { ParentNgdocheckComponent } from './content/ngDoCheck/parent-ngdocheck/parent-ngdocheck.component';
 import { NgAfterContentInitComponent } from './content/ngAfterContentInit/ng-after-content-init/ng-after-content-init.component';
+import { NgAfterViewCheckedComponent } from './content/ ngAfterViewChecked/ng-after-view-checked/ng-after-view-checked.component';
+import { ChildNgondestroyComponent } from './content/ngOnDestroy/child-ngondestroy/child-ngondestroy.component';
+import { ParentNgondestroyComponent } from './content/ngOnDestroy/parent-ngondestroy/parent-ngondestroy.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +48,10 @@ import { NgAfterContentInitComponent } from './content/ngAfterContentInit/ng-aft
     ParentNgonchangeComponent,
     ChildNgdocheckComponent,
     ParentNgdocheckComponent,
-    NgAfterContentInitComponent
+    NgAfterContentInitComponent,
+    NgAfterViewCheckedComponent,
+    ChildNgondestroyComponent,
+    ParentNgondestroyComponent
   ],
   imports: [
     BrowserModule,

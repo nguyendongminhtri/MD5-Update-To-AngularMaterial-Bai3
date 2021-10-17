@@ -6,6 +6,7 @@ import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
   styleUrls: ['./child.component.scss']
 })
 export class ChildComponent implements OnInit {
+  // @Input() data?: string[];
   @Input() data?: string[];
   // @Output()
   // giveURLtoCreate = new EventEmitter();

@@ -9,6 +9,8 @@ import {ParentOutputComponent} from "./content/output/parent-output/parent-outpu
 import {ParentNgonchangeComponent} from "./content/ngOnChanges/parent-ngonchange/parent-ngonchange.component";
 import {ParentNgdocheckComponent} from "./content/ngDoCheck/parent-ngdocheck/parent-ngdocheck.component";
 import {NgAfterContentInitComponent} from "./content/ngAfterContentInit/ng-after-content-init/ng-after-content-init.component";
+import {NgAfterViewCheckedComponent} from "./content/ ngAfterViewChecked/ng-after-view-checked/ng-after-view-checked.component";
+import {ParentNgondestroyComponent} from "./content/ngOnDestroy/parent-ngondestroy/parent-ngondestroy.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -19,7 +21,9 @@ const routes: Routes = [
   {path: 'output', component: ParentOutputComponent},
   {path: 'ng-onchange',component: ParentNgonchangeComponent},
   {path: 'ng-do-check',component: ParentNgdocheckComponent},
-  {path: 'ng-after-content-init', component: NgAfterContentInitComponent}
+  {path: 'ng-after-content-init', component: NgAfterContentInitComponent},
+  {path: 'ngAfterViewChecked', component: NgAfterViewCheckedComponent},
+  {path: 'ngOnDestroy', component: ParentNgondestroyComponent}
 ];
 
 @NgModule({
