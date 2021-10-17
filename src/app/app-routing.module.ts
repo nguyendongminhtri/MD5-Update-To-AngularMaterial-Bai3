@@ -13,6 +13,8 @@ import {NgAfterViewCheckedComponent} from "./content/ ngAfterViewChecked/ng-afte
 import {ParentNgondestroyComponent} from "./content/ngOnDestroy/parent-ngondestroy/parent-ngondestroy.component";
 import {ChildServiceComponent} from "./content/@service/child-service/child-service.component";
 import {ParentServiceComponent} from "./content/@service/parent-service/parent-service.component";
+import {NgAfterContentCheckedComponent} from "./content/ngAfterContentChecked/ng-after-content-checked/ng-after-content-checked.component";
+import {NgAfterViewInitComponent} from "./content/ngAfterViewInit/ng-after-view-init/ng-after-view-init.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -27,7 +29,9 @@ const routes: Routes = [
   {path: 'ngAfterViewChecked', component: NgAfterViewCheckedComponent},
   {path: 'ngOnDestroy', component: ParentNgondestroyComponent},
   {path: 'child-service', component: ChildServiceComponent},
-  {path: 'parent-service', component: ParentServiceComponent}
+  {path: 'parent-service', component: ParentServiceComponent},
+  {path: 'ngAfterContentChecked', component: NgAfterContentCheckedComponent},
+  {path: 'ngAfterViewInit', component: NgAfterViewInitComponent}
 ];
 
 @NgModule({

@@ -32,6 +32,8 @@ import { ChildNgondestroyComponent } from './content/ngOnDestroy/child-ngondestr
 import { ParentNgondestroyComponent } from './content/ngOnDestroy/parent-ngondestroy/parent-ngondestroy.component';
 import { ChildServiceComponent } from './content/@service/child-service/child-service.component';
 import { ParentServiceComponent } from './content/@service/parent-service/parent-service.component';
+import { NgAfterContentCheckedComponent } from './content/ngAfterContentChecked/ng-after-content-checked/ng-after-content-checked.component';
+import { NgAfterViewInitComponent } from './content/ngAfterViewInit/ng-after-view-init/ng-after-view-init.component';
 
 
 @NgModule({
@@ -57,6 +59,8 @@ import { ParentServiceComponent } from './content/@service/parent-service/parent
     ParentNgondestroyComponent,
     ChildServiceComponent,
     ParentServiceComponent,
+    NgAfterContentCheckedComponent,
+    NgAfterViewInitComponent,
 
   ],
   imports: [

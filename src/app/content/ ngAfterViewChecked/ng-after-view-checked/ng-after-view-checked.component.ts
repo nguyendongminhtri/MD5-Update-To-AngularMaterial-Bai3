@@ -28,5 +28,6 @@ export class NgAfterViewCheckedComponent implements OnInit {
   // ngAfterViewChecked () được gọi sau mỗi ngAfterContentChecked tiếp theo.
   // Kích hoạt hàm clickMe () sẽ kích hoạt ngAfterViewChecked ()
   // Khi nào bạn nên sử dụng ngAfterViewChecked?
-  // ngAfterViewChecked hữu ích khi bạn muốn gọi một móc vòng đời sau khi tất cả các thành phần con đã được khởi tạo và kiểm tra.
+  // ngAfterViewChecked hữu ích khi bạn
+  // muốn gọi một móc vòng đời sau khi tất cả các thành phần con đã được khởi tạo và kiểm tra.
 }

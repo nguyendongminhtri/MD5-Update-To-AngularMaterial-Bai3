@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
   fruits = ['Mengo', 'Orange', 'Banana'];
-  vote: number = 0;
+  // text?: string; // Dung voi [(ngModel)]
   constructor() { }
 
   ngOnInit(): void {
