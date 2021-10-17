@@ -11,6 +11,8 @@ import {ParentNgdocheckComponent} from "./content/ngDoCheck/parent-ngdocheck/par
 import {NgAfterContentInitComponent} from "./content/ngAfterContentInit/ng-after-content-init/ng-after-content-init.component";
 import {NgAfterViewCheckedComponent} from "./content/ ngAfterViewChecked/ng-after-view-checked/ng-after-view-checked.component";
 import {ParentNgondestroyComponent} from "./content/ngOnDestroy/parent-ngondestroy/parent-ngondestroy.component";
+import {ChildServiceComponent} from "./content/@service/child-service/child-service.component";
+import {ParentServiceComponent} from "./content/@service/parent-service/parent-service.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -23,7 +25,9 @@ const routes: Routes = [
   {path: 'ng-do-check',component: ParentNgdocheckComponent},
   {path: 'ng-after-content-init', component: NgAfterContentInitComponent},
   {path: 'ngAfterViewChecked', component: NgAfterViewCheckedComponent},
-  {path: 'ngOnDestroy', component: ParentNgondestroyComponent}
+  {path: 'ngOnDestroy', component: ParentNgondestroyComponent},
+  {path: 'child-service', component: ChildServiceComponent},
+  {path: 'parent-service', component: ParentServiceComponent}
 ];
 
 @NgModule({

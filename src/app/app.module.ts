@@ -30,6 +30,9 @@ import { NgAfterContentInitComponent } from './content/ngAfterContentInit/ng-aft
 import { NgAfterViewCheckedComponent } from './content/ ngAfterViewChecked/ng-after-view-checked/ng-after-view-checked.component';
 import { ChildNgondestroyComponent } from './content/ngOnDestroy/child-ngondestroy/child-ngondestroy.component';
 import { ParentNgondestroyComponent } from './content/ngOnDestroy/parent-ngondestroy/parent-ngondestroy.component';
+import { ChildServiceComponent } from './content/@service/child-service/child-service.component';
+import { ParentServiceComponent } from './content/@service/parent-service/parent-service.component';
+
 
 @NgModule({
   declarations: [
@@ -51,7 +54,10 @@ import { ParentNgondestroyComponent } from './content/ngOnDestroy/parent-ngondes
     NgAfterContentInitComponent,
     NgAfterViewCheckedComponent,
     ChildNgondestroyComponent,
-    ParentNgondestroyComponent
+    ParentNgondestroyComponent,
+    ChildServiceComponent,
+    ParentServiceComponent,
+
   ],
   imports: [
     BrowserModule,
